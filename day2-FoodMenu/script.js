@@ -80,13 +80,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const menulistContainer = document.querySelector(".menu-list")
 
+  displayAll()
   itemsTitle.forEach(title => {
     const button = document.createElement('button')
     button.className = 'item'
     button.innerHTML = `<p>${title}</p>`
     itemContainer.appendChild(button)
 
-    displayAll()
+
 
     button.addEventListener("click", (e) => {
       clearDisplay()
@@ -153,4 +154,6 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     })
   }
+
+
 });
