@@ -24,7 +24,7 @@ body {
   cursor: pointer;
   width: 20px;
   height: 120px;
-  background-image: url(wood.png);
+  background-image: url(/day2-FoodMenu/image/wood.png);
   padding: 0 20px;
   margin: 0 10px;
   display: flex;
@@ -32,10 +32,10 @@ body {
   box-shadow: 1px 1px 2px gray;
 }
 
-.item:hover {
+.item:active {
   transform: rotate(-360deg);
   transform-origin: top;
-  transition: all ease 1s;
+  transition: all ease 2s;
 }
 
 .item>p {
