@@ -79,6 +79,9 @@ body {
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 5px;
+  width: 350px;
+  margin-top: -20px;
+  text-align: center;
 }
 
 .count-num {
@@ -89,7 +92,7 @@ body {
   width: 600px;
   height: 200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -98,6 +101,7 @@ body {
   height: 150px;
   border-radius: 50%;
   background-color: var(--sub-bg1);
+  margin: 0 20px;
 }
 
 .action:hover {
