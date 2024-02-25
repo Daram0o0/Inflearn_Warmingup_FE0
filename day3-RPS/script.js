@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
       remainNum.innerText--
 
       if (remainNum.innerText === "0") {
-        buttonList.innerHTML = '<div><button class="action" id="reset"><p>reset</p></button></div>';
+        buttonList.innerHTML = '<div><button class="action" id="reset" onClick="window.location.reload()"><p>reset</p></button></div>';
         result.innerText = ""
 
         let message = ""
@@ -66,16 +66,6 @@ document.addEventListener('DOMContentLoaded', function () {
         <p>${message}</p>
       </div>`
       }
-
-      // function resetGame() {
-      //   // 초기화 코드 작성
-      //   // 예: 난수 초기화, 점수 초기화, 남은 횟수 초기화 등...
-      //   playerScore.innerText = 0;
-      //   comScore.innerText = 0;
-      //   remainNum.innerText = 10;
-      //   // buttonList.innerHTML =
-      //   // comText를 클릭할 때마다 새로 갱신하는 등
-      // }
     });
 
   })
