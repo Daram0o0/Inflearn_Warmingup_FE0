@@ -84,7 +84,8 @@ body {
 
 }
 
-.action-next {
+.action-next,
+.action-reset {
   width: 200px;
   font-weight: bold;
   border: none;
@@ -93,6 +94,7 @@ body {
   box-shadow: 2px 2px 3px var(--neon-black);
 }
 
-.action-next:hover {
+.action-next:hover,
+.action-reset:hover {
   box-shadow: 1px 1px 3px var(--neon-black);
 }
